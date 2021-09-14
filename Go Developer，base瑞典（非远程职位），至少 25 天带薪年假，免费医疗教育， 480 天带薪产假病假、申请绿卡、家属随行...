@@ -1,0 +1,53 @@
+Activities to be performed:
+本职位的工作内容：
+· The primary purpose of the application is to transform UDP (RADIUS & CoAP) traffic to HTTP (REST) which is then sent on to the primary IoT-product.
+应用程序的主要目的是将UDP (RADIUS和CoAP)流量转换为HTTP (REST)，然后发送到主要的物联网产品。
+· The application has a microservice architecture where the communication is done over Protobuf.
+应用程序有一个微服务架构，其通信通过Protobuf完成。
+· Two of the services included in the application expose interfaces with UDP (Radius & CoAP).
+应用程序中包含的两个服务使用了UDP(Radius和CoAP)的公开接口。
+· The application is deployed on AWS in a VPC cluster with manually configured EC2:s.
+应用程序部署在 VPC 集群的 AWS 上，并手动配置EC2:s。
+·  A test environment is deployed using CI/CD.
+使用CI/CD部署测试环境。
+· A Postgres database is used to register IoT devices, allocate IP-addresses to the devices (using Radius) and intermediately store messages from the devices to the IoT-product. Postgres
+数据库用于注册物联网设备，为设备分配ip地址(使用Radius)，并将消息从设备中间存储到物联网产品。
+
+
+Required skillset:
+必备技能:
+· Golang. It’s essential that the candidate has done network programming within Golang or has the knowledge to quickly get into low level concepts. Therefore, a minimum of 2-3 years’ experience with Golang (can be less if it’s a senior developer with previous experience in the technologies mentioned from other languages)
+候选人必须在Golang内做过网络编程，或者具有快速了解低级别概念的知识。因此，至少要有2-3年的Golang工作经验（如果是有其他语言技术经验的高级开发人员，则对于golang的经验可以适当降低）。
+· Protobuf. Protobuf is essential to understanding the applications structure. 
+Propbuf 对于理解应用程序结构至关重要。
+· Postgres
+· AWS. Some AWS knowledge is preferred.具备一定AWS知识的候选人将被优先考虑。
+· UDP
+· CoAP
+· Radius
+· HTTP/REST API
+
+ 
+Qualifying skills
+加分项
+· Node. Node.js experience is valuable as the rest of the applications within the MIC stack are written in node. But not a requirement. 
+Node.js的经验是非常有帮助的，因为MIC堆栈内的其他应用程序是用node编写的。但这不是一个必备条件。
+
+
+福利：
+️● 至少25天带薪年假
+️● 享受等同于瑞典公民的福利，如免费医疗教育，480 天带薪产假病假，照顾生病孩子的假期等
+️● Base 斯德哥尔摩、哥德堡、马尔默等主要大城市
+️● 工作满 4 年可申请绿卡
+
+
+注:
+●	候选人至少需要具备5年软件相关行业工作经验
+●	英语口语可以满足日常工作交流 (不需要雅思或托福成绩，以雇主面试为准)
+●	有意愿前往瑞典工作至少一年半时间
+
+
+详情请咨询微信：809306696
+
+
+Wish you a Brilliant Career!
